@@ -1,0 +1,24 @@
+
+message req_biubiu
+{
+    optional uint32 value = 1;
+    optional string name = 2;
+    repeated uint32 args = 3;
+}
+
+message ret_biubiu
+{
+    optional uint32 value = 1;
+    optional string name = 2;
+    repeated uint32 args = 3;
+}
+
+message req_chat
+{
+    optional uint32 content = 1;
+}
+
+message ret_chat
+{
+    optional uint32 content = 1;
+}
